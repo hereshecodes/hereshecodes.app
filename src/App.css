@@ -1,0 +1,32 @@
+/* color */
+.bg-primary {
+  background: #4A5759
+  ;
+}
+
+.bg-secondery {
+  background: #B0C4B1;
+}
+
+.bg-accent {
+  background: #F7E1D7;
+}
+
+.text-accent {
+  color: #EDAFB8;
+}
+.mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+} 
+nav li a {
+  @apply px-4 py-5 text-lg;
+}
+s
+nav li a:hover {
+  color: #F7E1D7;
+}
+/* hero */
+h1 {
+  font-family: 'Pacifico', cursive;
+  line-height: 1.5 !important;
+}
