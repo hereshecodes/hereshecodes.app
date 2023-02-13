@@ -31,7 +31,7 @@ const Contact = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d773465.8297770084!2d-112.47952465529956!3d40.77629923160011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87523d9488d131ed%3A0x5b53b7a0484d31ca!2sSalt%20Lake%20City%2C%20UT!5e0!3m2!1sen!2sus!4v1676249437097!5m2!1sen!2sus" 
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 pr-8 rounded shadow-md">
-            <div className="lg:w-1/2 lg:h-1/4 px-6">
+            <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
@@ -39,6 +39,7 @@ const Contact = () => {
                 Salt Lake City, Utah
               </p>
             </div>
+            
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
