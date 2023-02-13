@@ -1,68 +1,47 @@
-import React, { useEffect, useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import React, {useState, useEffect} from 'react'
+import './Navbar.css'
 
+const Navbar = () => {
+  return (
 
+  <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
+  <a href="/" className="logo text-2xl font-bold text-accent">
+    Danielle
+  </a>
+  </header>
 
-const  Navbar = () => {
-  const [toggle, setToggle] = useState(false);
+)
+  /*const toggleNav = () => {
+    setToggleMenu(!toggleMenu)
+  }
 
-  const handleToggle = () => setToggle(!toggle);
+  useEffect(() => {
+
+    const changeWidth = () => {
+      setScreenWidth(window.innerWidth);
+    }
+
+    window.addEventListener('resize', changeWidth)
+
+    return () => {
+        window.removeEventListener('resize', changeWidth)
+    }
+
+  }, [])
 
   return (
-    <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
-      <a href="/" className="logo text-2xl font-bold text-accent">
-        Danielle
-      </a>
+    <nav>
+      {(toggleMenu || screenWidth > 500) && (
+      <ul className="list">
+      <li className="items">Home</li>
+      <li className="items">Services</li>
+      <li className="items">Contact</li>
+    </ul>
+      )}
 
-      {/* Desktop Nav */}
-      <nav className="hidden md:block">
-        <ul className="flex">
-          <li>
-            <a href="/#about">About</a>
-          </li>
-          <li>
-            <a href="/#projects">Projects</a>
-          </li>
-          <li>
-            <a href="/#contact">Contact</a>
-          </li>
-          <li>
-            <a href="https://www.fiverr.com/daniellehoopes1?up_rollout=true" target="_blank" without rel="noreferrer">
-              Fiverr
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      {/* Mobile Nav */}
-      <nav
-        className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}
-      >
-        <ul className="flex flex-col">
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/#projects">Projects</a>
-          </li>
-          <li>
-            <a href="/#blog">Blog</a>
-          </li>
-          <li>
-            <a href="/#contact">Contact</a>
-          </li>
-          <li>
-            <a href="https://www.fiverr.com/daniellehoopes1?up_rollout=true">Fiverr</a>
-          </li>
-        </ul>
-      </nav>
-
-      {/* Toggle button */}
-      <button onClick={handleToggle} className="block md:hidden">
-        {!toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
-      </button>
-    </header>
-  );
+      <button onClick={toggleNav} className="btn-nav">UP</button>
+    </nav>
+  )
+}*/
 };
-
-export default  Navbar;
+export default Navbar;

@@ -54,6 +54,7 @@ const Contact = () => {
          
         </form>
       </div>
+      <p class="text-center">Made by hereshecodes with React, Node.js, and Tailwind CSS</p>
     </section>
   );
 };
