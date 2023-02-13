@@ -48,13 +48,13 @@ const Contact = () => {
            I am always happy to hear about projects your working on
            and how I can help. 
           </p>
-          
+          <p class="text-center">Made by hereshecodes with React, Node.js, and Tailwind CSS</p>
+
          
           
          
         </form>
       </div>
-      <p class="text-center">Made by hereshecodes with React, Node.js, and Tailwind CSS</p>
     </section>
   );
 };
