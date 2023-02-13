@@ -8,7 +8,7 @@ const Projects = () => {
        <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-info">
        
-          <p className="pb-5">
+          <p className="pb-5 title-font font-semibold">
         2023 Projects Coming Soon...
           </p>
           <p className="pb-5">
