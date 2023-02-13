@@ -18,10 +18,16 @@ const About = () => {
              Tailwind CSS, SaSS, Css3 and many more.
           </p>
 
-          <p>In backend I know Node.js, C#, SQL Server and MongoDB</p>
-
-        </div>
-
+          <p className="pb-5" >In backend I know Node.js, C#, SQL Server and MongoDB</p>
+<p className="pb-5 text-accent-2">If you are here for my freelance work head to </p>
+      
+        <a
+            href="https://www.fiverr.com/daniellehoopes1?up_rollout=true"
+            className=" btn bg-accent pb-5 border-2 border-[#7477FF] text-black px-6 py-3 hover:bg-transparent"
+          >
+           Fiverr
+          </a>
+</div>
         <div className="about-img">
           <img
             src={AboutImg}

@@ -1,6 +1,6 @@
 /* color */
 .bg-primary {
-  background: #4A5759
+  background: #4828C5
   ;
 }
 
@@ -9,11 +9,14 @@
 }
 
 .bg-accent {
-  background: #F7E1D7;
+  background: #FC4ECf;
 }
 
 .text-accent {
-  color: #EDAFB8;
+  color: #C2FF50;
+}
+.text-accent-2{
+  color: #FC4ECf
 }
 .mobile-nav {
   @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
@@ -27,6 +30,6 @@ nav li a:hover {
 }
 /* hero */
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Lobster', cursive;
   line-height: 1.5 !important;
 }
