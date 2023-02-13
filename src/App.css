@@ -38,7 +38,5 @@ a{
 }
 .stack-carousel{
   overflow: hidden; 
-  @media (min-width: 992px) {
-    width: 1000px;
-  }
+  overflow-y: hidden;
 }
