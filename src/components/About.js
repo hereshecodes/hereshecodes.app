@@ -7,18 +7,12 @@ const About = () => {
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-info">
        
-          <p className="pb-5">
-            Hi, I'm Danielle. I am a
-            Fullstack Developer. 
-            I like to build cool websites with React and
-            Tailwind CSS.
-          </p>
+        
           <p className="pb-5">
             I am proficient in Frontend skills like React.js,
              Tailwind CSS, SaSS, Css3 and many more.
           </p>
 
-          <p className="pb-5" >In backend I know Node.js, C#, SQL Server and MongoDB</p>
 <p className="pb-5 text-accent">If you are here for my freelance work head to </p>
       
         <a
