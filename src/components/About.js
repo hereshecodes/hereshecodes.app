@@ -22,7 +22,7 @@ const About = () => {
            Fiverr
           </a>
 </div>
-        <div className="about-img">
+        <div className="about-img pt-10">
           <img
             src={AboutImg}
             alt="coding illustration"
