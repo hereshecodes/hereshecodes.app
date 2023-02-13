@@ -5,7 +5,8 @@ const Blog = () => {
     <section className="bg-primary text-white px-5 py-32" id="blog">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="scrollbar-hide overflow-auto" style="overflow: none;">
-        <rssapp-carousel id="2ytTHH88xrAVfOeI"></rssapp-carousel><script src="https://widget.rss.app/v1/carousel.js" type="text/javascript" async></script>        </div>
+        <iframe width="1000" height="440"  src="https://rss.app/embed/v1/carousel/2ytTHH88xrAVfOeI" frameborder="0"></iframe>
+        </div>
       </div>
     </section>
   );
