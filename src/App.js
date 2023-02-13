@@ -4,6 +4,7 @@ import React from "react";
 import { BrowserRouter } from 'react-router-dom'
 
 import About from "./components/About";
+import Blog from "./components/Blog";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Contact from "./components/Contact";
@@ -18,6 +19,7 @@ export default function App() {
       </BrowserRouter>
       <Hero/>
       <About/>
+      <Blog/>
       <Projects/>
       <Contact/>
       <Footer/>
