@@ -15,7 +15,7 @@ const Contact = () => {
             Contact Me
           </h2>
           <p className="pb-5">
-Visit one of my social links or: 
+          Visit one of my social links or: 
           </p>
             
           <a href="mailto:hereshecodes1@gmail.com"
