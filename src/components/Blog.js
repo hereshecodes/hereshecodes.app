@@ -7,10 +7,7 @@ const Blog = () => {
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-info">
        
-          <p className="pb-5">
-          Coming Soon...
-          </p>
-        
+          <rssapp-carousel id="2ytTHH88xrAVfOeI"></rssapp-carousel><script src="https://widget.rss.app/v1/carousel.js" type="text/javascript" async></script>
 
         </div>
 
