@@ -16,7 +16,6 @@ const Projects = () => {
         to see what I'm working on
           </p>
 
-          <p>In backend I know Node.js, C#, SQL Server and MongoDB</p>
 
         </div>
 
