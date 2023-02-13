@@ -5,9 +5,9 @@ import React from "react";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-
+import Blog from  "./components/Blog";
 import Contact from "./components/Contact";
-
+import Projects from "./components/Projects";
 
 export default function App() {
   return (
@@ -15,6 +15,8 @@ export default function App() {
       <Navbar/>
       <Hero/>
       <About/>
+      <Projects/>
+      <Blog/>
       <Contact/>
     </main>
   );

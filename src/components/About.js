@@ -10,20 +10,16 @@ const About = () => {
           <p className="pb-5">
             Hi, I'm Danielle. I am a
             Fullstack Developer. 
-            I build beautifull websites with React and
+            I like to build cool websites with React and
             Tailwind CSS.
           </p>
           <p className="pb-5">
-            I am proficient in Frontend skills like React.js, Redux, Redux Tool
-            Kit, Axios, Tailwind CSS, SaSS, Css3 and many more.
+            I am proficient in Frontend skills like React.js,
+             Tailwind CSS, SaSS, Css3 and many more.
           </p>
 
-          <p>In backend I know Node.js, Express.js, MongoDB, and Mongoose</p>
+          <p>In backend I know Node.js, C#, SQL Server and MongoDB</p>
 
-          <p>
-            In my spare time I create YouTube videos and write blogs on my Blog.
-            Where I talk about programming theory and build various projects.
-          </p>
         </div>
 
         <div className="about-img">

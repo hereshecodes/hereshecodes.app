@@ -30,8 +30,8 @@ const  Navbar = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="#resume -link" target="_blank" without rel="noreferrer">
-              Resume
+            <a href="https://www.fiverr.com/daniellehoopes1?up_rollout=true" target="_blank" without rel="noreferrer">
+              Fiverr
             </a>
           </li>
         </ul>
@@ -55,7 +55,7 @@ const  Navbar = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="/#resume">Resume</a>
+            <a href="https://www.fiverr.com/daniellehoopes1?up_rollout=true">Fiverr</a>
           </li>
         </ul>
       </nav>

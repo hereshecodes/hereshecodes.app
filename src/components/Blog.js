@@ -1,26 +1,29 @@
 import React from "react";
-import Projectsimg from "../assets/Projects.png";
+import AboutImg from "../assets/BLOG.png";
 
-
-const Projects = () => {
+const Blog = () => {
   return (
-    <section className="bg-primary text-white px-5 py-32" id="projects">
+    <section className="bg-secondery text-white px-5 py-32" id="blog">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-info">
+       
           <p className="pb-5">
+          Coming Soon...
+          </p>
+        
+
+        </div>
+
+        <div className="about-img">
           <img
-            src={Projectsimg}
+            src={AboutImg}
             alt="coding illustration"
             className="lgw-[80%] md:ml-auto"
           />
-          </p>
-        </div>
-        <div className="about-img">
-        <p></p>
         </div>
       </div>
     </section>
   );
 };
 
-export default Projects;
+export default Blog;

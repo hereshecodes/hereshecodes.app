@@ -5,6 +5,10 @@ import {
   AiOutlineTwitter,
   AiOutlineYoutube,
   AiOutlineFacebook,
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+  AiOutlineBehanceSquare,
+  AiOutlineArrowRight,
 } from "react-icons/ai";
 
 const Hero = () => {
@@ -24,31 +28,31 @@ const Hero = () => {
 
           <div className="flex py-5 ">
             <a
-              href="https://twitter.com/CoderAmrin"
+              href="https://github.com/hereshecodes"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
-              <AiOutlineTwitter size={40} />{" "}
+              <AiOutlineGithub size={40} />{" "}
             </a>
             <a
-              href="https://www.youtube.com/@coderamrin"
+              href="https://www.linkedin.com/daniellehoopes"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
-              <AiOutlineYoutube size={40} />{" "}
+              <AiOutlineLinkedin size={40} />{" "}
             </a>
             <a
-              href="https://www.facebook.com/CoderAmrin/"
+              href="https://stackoverflow.com/users/7810770/danielle-hoopes"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
-              <AiOutlineFacebook size={40} />{" "}
+              <AiOutlineArrowRight size={40} />{" "}
             </a>
           </div>
 
           <a
             href="/#projects"
-            className=" btn bg-accent  border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"
+            className=" btn bg-accent  border-2 border-[#7477FF] text-black px-6 py-3 hover:bg-transparent"
           >
             See Projects
           </a>
