@@ -19,11 +19,11 @@ const About = () => {
           </p>
 
           <p className="pb-5" >In backend I know Node.js, C#, SQL Server and MongoDB</p>
-<p className="pb-5 text-accent-2">If you are here for my freelance work head to </p>
+<p className="pb-5 text-accent">If you are here for my freelance work head to </p>
       
         <a
             href="https://www.fiverr.com/daniellehoopes1?up_rollout=true"
-            className=" btn bg-accent pb-5 border-2 border-[#7477FF] text-black px-6 py-3 hover:bg-transparent"
+            className="btn bg-accent pb-5 border-2 border-[#FFFFF] text-black px-6 py-3 hover:bg-transparent"
           >
            Fiverr
           </a>

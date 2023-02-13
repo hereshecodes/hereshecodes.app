@@ -5,7 +5,7 @@
 }
 
 .bg-secondery {
-  background: #B0C4B1;
+  background: #FA5E0A;
 }
 
 .bg-accent {
@@ -29,7 +29,10 @@ nav li a:hover {
   background-color: #F7E1D7;
 }
 /* hero */
-h1 {
+h1 , a{
   font-family: 'Lobster', cursive;
   line-height: 1.5 !important;
+}
+a{
+  font-size: 25px;
 }
