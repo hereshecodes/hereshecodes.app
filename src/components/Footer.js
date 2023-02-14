@@ -19,7 +19,7 @@ const Footer = () => {
                 <a href="#" class="mr-4 hover:underline md:mr-6 "></a>
             </li>
             <li>
-                <a href="#" class="hover:underline">Contact</a>
+                <a href="#" class="hover:underline">Made with React & Tailwind</a>
             </li>
         </ul>
     </div>
