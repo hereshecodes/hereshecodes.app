@@ -20,7 +20,7 @@ const Contact = () => {
         </form>
         <div className="lg:w-3/4 md:w-3/4 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
-            width="50%"
+            width="100%"
             height="100%"
             title="map"
             className="absolute inset-0"
