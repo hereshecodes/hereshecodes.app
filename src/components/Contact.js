@@ -3,7 +3,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-<section id="contact" className="bg-secondery">
+<section id="contact" className="bg-secondary">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
     
        <form action="/action_page.php"
