@@ -51,7 +51,6 @@ a{
 }
 .iframe{
   overflow: hidden;
-  border: 0;
   align-self: center; 
   position: absolute;
   top: 0;
