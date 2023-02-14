@@ -12,16 +12,16 @@ const About = () => {
             I am proficient in Frontend skills like React.js,
              Tailwind CSS, SaSS, Css3 and many more.
           </p>
-          <p className ="pb-5">During the day, I code .NET Applications using C#, SQL Server, and Azure</p>
+          <p className="pb-5">During the day, I code .NET Applications using C#, SQL Server, and Azure</p>
 
-<p className="pb-5 text-accent">If you are here for my freelance work where I 
+<p className="pb-5 text-accent">If you are here for my freelance work where I head to 
 work with clients to update their storefronts, WordPress sites, custom coded apps, and 
-lots more, head over to Fiverr 
+lots more head over to Fiver
 </p>
       
         <a
             href="https://www.fiverr.com/daniellehoopes1?up_rollout=true"
-            className="btn bg-accent pb-5 border-2 border-[#FFFFF] text-black px-6 py-3 hover:bg-transparent"
+            className="btn bg-accent-2 pb-5 border-2 border-[#FFFFF] text-black px-6 py-3 hover:bg-transparent"
           >
            Fiverr
           </a>
