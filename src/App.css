@@ -47,6 +47,7 @@ a{
 .newsWrapper{
   position: relative;
   padding-bottom: 56.25%;
+  padding-top: 10%;
   overflow: hidden;
 }
 .iframe{
