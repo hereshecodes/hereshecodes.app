@@ -12,7 +12,7 @@ const About = () => {
             I am proficient in Frontend skills like React.js,
              Tailwind CSS, SaSS, Css3 and many more.
           </p>
-          <p>During the day, I code .NET Applications using C#, SQL Server, and Azure</p>
+          <p pb-5>During the day, I code .NET Applications using C#, SQL Server, and Azure</p>
 
 <p className="pb-5 text-accent">If you are here for my freelance work head to </p>
       
