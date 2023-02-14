@@ -9,7 +9,7 @@ const Contact = () => {
        <form action="/action_page.php"
           netlify
           name="contact"
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          className="lg:w-1/2 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
@@ -18,7 +18,7 @@ const Contact = () => {
            and how I can help. 
           </p>
         </form>
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <div className="lg:w-1/2 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="50%"
             height="100%"
