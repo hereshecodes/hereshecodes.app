@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import News from "./components/News";
 import Footer from  "./components/Footer";
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
       <Hero/>
       <About/>
       <Blog/>
+      <News/>
       <Projects/>
       <Contact/>
       <Footer/>
