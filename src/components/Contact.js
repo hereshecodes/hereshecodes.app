@@ -4,7 +4,7 @@ import React from "react";
 const Contact = () => {
   return (
 <section id="contact" className="bg-secondary">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div className="lg:w-1/3 container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
     
        <form action="/action_page.php"
           netlify
