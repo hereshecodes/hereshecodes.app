@@ -46,7 +46,7 @@ a{
 }
 .newsWrapper{
   position: relative;
-  padding-bottom: 500%;
+  padding-bottom: 50%;
   padding-top: 10%;
   overflow: hidden;
 }
