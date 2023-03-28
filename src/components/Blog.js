@@ -47,48 +47,7 @@ To build a conversational AI app with .NET, React, and ChatGPT, you'll need to f
       </pre>
       <h2>Step 4: Use .NET to create a back-end API</h2>
       <pre>
-        <code>
-        using System;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
-
-namespace ChatGPTApp.Services
-{
-    public class ChatGPTService
-    {
-        private readonly string _endpointUrl = "https://api.openai.com/v1/engines/davinci-codex/completions";
-
-        public async Task<string> GenerateResponseAsync(string prompt)
-        {
-            using var client = new HttpClient();
-            client.DefaultRequestHeaders.Authorization =
-                new AuthenticationHeaderValue("Bearer", "YOUR_API_KEY_HERE");
-
-            var request = new
-            {
-                prompt = prompt,
-                max_tokens = 150,
-                n = 1,
-                stop = "\n",
-                temperature = 0.7
-            };
-
-            var jsonRequest = JsonConvert.SerializeObject(request);
-
-            var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
-            var response = await client.PostAsync(_endpointUrl, content);
-
-            var jsonResponse = await response.Content.ReadAsStringAsync();
-            dynamic responseObject = JsonConvert.DeserializeObject(jsonResponse);
-            var generatedText = responseObject.choices[0].text;
-
-            return generatedText;
-        }
-    }
-}
+ 
         </code>
       </pre>
       <h2>Step 5: Deploy the app to a hosting service</h2>
