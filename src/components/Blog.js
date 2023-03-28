@@ -58,7 +58,8 @@ const Blog = () => {
 </pre>
 <h2>Use the ChatGPT API to send natural language inputs to the model and receive responses</h2>
       <pre className="bg-gray-100 p-4 rounded-lg my-4">
-        <code className="block">using System;
+      <code className="block" language="csharp">
+          using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
