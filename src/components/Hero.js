@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="container mx-auto grid items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
-            Hi, <br />test am <span className="text-accent">da</span>nielle <br />
+            Hi, <br />I am <span className="text-accent">da</span>nielle <br />
             Fullstack Developer
           </h1>
 
