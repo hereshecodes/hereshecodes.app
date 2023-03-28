@@ -57,8 +57,7 @@ const Blog = () => {
   </code>
 </pre>
 <h2>Use the ChatGPT API to send natural language inputs to the model and receive responses</h2>
-      <pre className="bg-gray-100 p-4 rounded-lg my-4">
-      <code className="block" language="csharp">
+<pre className="bg-gray-100 p-4 rounded-lg my-4" dangerouslySetInnerHTML={{ __html: `
           using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -101,12 +100,45 @@ namespace ChatGPTApp.Services
     }
 
 }
-</code>
-      </pre> 
+`}} />
       <h2>Step 4: Use .NET to create a back-end API</h2>
-      <pre className="bg-gray-100 p-4 rounded-lg my-4">
-        <code className="block">{`// Paste the C# code block for creating a back-end API here`}</code>
-      </pre>
+      <pre className="bg-gray-100 p-4 rounded-lg my-4" dangerouslySetInnerHTML={{ __html: `
+         using System.Threading.Tasks;
+         using ChatGPTApp.Services;
+         using Microsoft.AspNetCore.Cors;
+         using Microsoft.AspNetCore.Mvc;
+         
+         namespace ChatGPTApp.Controllers
+         {
+             [ApiController]
+             [Route("[controller]")]
+             [EnableCors("AllowAnyOrigin")]
+             public class ChatGPTController : ControllerBase
+             {
+                 private readonly ChatGPTService _chatGPTService;
+         
+                 public ChatGPTController(ChatGPTService chatGPTService)
+                 {
+                     _chatGPTService = chatGPTService;
+                 }
+         
+                 [HttpGet]
+                 public async Task<ActionResult<string>> Get([FromQuery] string prompt)
+                 {
+                     var response = await _chatGPTService.GenerateResponseAsync(prompt);
+                     return Ok(response);
+                 }
+             }
+         }
+         
+`}} />
+      <h2>Step 4: Use .NET to create a back-end API</h2>
+<p>To deploy the app to Azure, you can follow these steps:
+
+<li>Create an Azure account and log in to the Azure portal.</li>.
+<li>Create a new App Service and configure it with the necessary settings, such as the runtime stack, deployment source, and environment variables.</li>
+<li>Deploy the app to the App Service using your preferred deployment method, such as Git, FTP, or Azure CLI.</li>
+</p>
 </div>
 );
 };
