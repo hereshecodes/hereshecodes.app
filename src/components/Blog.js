@@ -48,7 +48,7 @@ To build a conversational AI app with .NET, React, and ChatGPT, you'll need to f
       <h2>Step 4: Use .NET to create a back-end API</h2>
       <pre>
  
-        </code>
+       
       </pre>
       <h2>Step 5: Deploy the app to a hosting service</h2>
       To deploy the app to Azure, you can follow these steps:
@@ -56,7 +56,6 @@ To build a conversational AI app with .NET, React, and ChatGPT, you'll need to f
 Create an Azure account and log in to the Azure portal.
 Create a new App Service and configure it with the necessary settings, such as the runtime stack, deployment source, and environment variables.
 Deploy the app to the App Service using your preferred deployment method, such as Git, FTP, or Azure CLI.
-
 
 
     </div>
