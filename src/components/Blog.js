@@ -3,6 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <div className="container mx-auto my-8">
+      <div class="main-post">
       <h1 className="text-3xl font-bold mb-4">
         Building a Conversational AI App with .NET, React, and ChatGPT
       </h1>
@@ -139,6 +140,17 @@ namespace ChatGPTApp.Services
 <li>Create a new App Service and configure it with the necessary settings, such as the runtime stack, deployment source, and environment variables.</li>
 <li>Deploy the app to the App Service using your preferred deployment method, such as Git, FTP, or Azure CLI.</li>
 </p>
+</div>
+<div class="side-posts">
+    <h2>Other Posts</h2>
+    <ul>
+   
+      <li><a href="#">Post 1</a></li>
+      <li><a href="#">Post 2</a></li>
+      <li><a href="#">Post 3</a></li>
+      <li><a href="#">Post 4</a></li>
+    </ul>
+  </div>
 </div>
 );
 };
