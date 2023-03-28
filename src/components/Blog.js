@@ -133,7 +133,7 @@ namespace ChatGPTApp.Services
          }
          
 `}} />
-      <h2>Step 4: Use .NET to create a back-end API</h2>
+<h2>Step 4: Use .NET to create a back-end API</h2>
 <p>To deploy the app to Azure, you can follow these steps:
 
 <li><a href="https://azure.microsoft.com/en-us/free/">Create an Azure account </a>and log in to the Azure portal.</li>
@@ -142,14 +142,14 @@ namespace ChatGPTApp.Services
 </p>
 </div>
 <div class="side-posts">
-    <h2>Other Posts</h2>
-    <ul>
+    <h2>New Posts every Tuesday and Thursday!</h2>
+    {/* <ul>
    
       <li><a href="#">Post 1</a></li>
       <li><a href="#">Post 2</a></li>
       <li><a href="#">Post 3</a></li>
       <li><a href="#">Post 4</a></li>
-    </ul>
+    </ul> */}
   </div>
 </div>
 );
