@@ -58,7 +58,49 @@ const Blog = () => {
 </pre>
 <h2>Use the ChatGPT API to send natural language inputs to the model and receive responses</h2>
       <pre className="bg-gray-100 p-4 rounded-lg my-4">
-        <code className="block">{`// Paste the JavaScript code block for using the ChatGPT API here`}</code>
+        <code className="block">using System;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+
+namespace ChatGPTApp.Services
+{
+    public class ChatGPTService
+    {
+        private readonly string _endpointUrl = "https://api.openai.com/v1/engines/davinci-codex/completions";
+
+        public async Task<string> GenerateResponseAsync(string prompt)
+        {
+            using var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization =
+                new AuthenticationHeaderValue("Bearer", "YOUR_API_KEY_HERE");
+
+            var request = new
+            {
+                prompt = prompt,
+                max_tokens = 150,
+                n = 1,
+                stop = "\n",
+                temperature = 0.7
+            };
+
+            var jsonRequest = JsonConvert.SerializeObject(request);
+
+            var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
+            var response = await client.PostAsync(_endpointUrl, content);
+
+            var jsonResponse = await response.Content.ReadAsStringAsync();
+            dynamic responseObject = JsonConvert.DeserializeObject(jsonResponse);
+            var generatedText = responseObject.choices[0].text;
+
+            return generatedText;
+        }
+    }
+
+}
+</code>
       </pre> 
       <h2>Step 4: Use .NET to create a back-end API</h2>
       <pre className="bg-gray-100 p-4 rounded-lg my-4">
