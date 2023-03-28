@@ -59,10 +59,8 @@ Deploy the app to the App Service using your preferred deployment method, such a
 
 
     </div>
-  
 
-    </div>
   );
-}
+};
 
 export default Blog;
