@@ -26,7 +26,7 @@ const Blog = () => {
       </p>
       <h2 className="text-xl font-bold my-4">Introduction to ChatGPT</h2>
       <p>
-        <a href="https://www.chat.openai.com">ChatGPT</a>is a large language model developed by OpenAI. It is based on
+        <a href="https://www.chat.openai.com"> ChatGPT</a>is a large language model developed by OpenAI. It is based on
         the GPT-3 architecture and is designed to generate human-like responses
         to natural language inputs. ChatGPT is a powerful tool for building
         conversational AI apps because it can understand natural language inputs
@@ -136,7 +136,7 @@ namespace ChatGPTApp.Services
       <h2>Step 4: Use .NET to create a back-end API</h2>
 <p>To deploy the app to Azure, you can follow these steps:
 
-<li>Create an Azure account and log in to the Azure portal.</li>
+<li><a href="https://azure.microsoft.com/en-us/free/">Create an Azure account </a>and log in to the Azure portal.</li>
 <li>Create a new App Service and configure it with the necessary settings, such as the runtime stack, deployment source, and environment variables.</li>
 <li>Deploy the app to the App Service using your preferred deployment method, such as Git, FTP, or Azure CLI.</li>
 </p>
