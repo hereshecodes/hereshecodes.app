@@ -142,7 +142,7 @@ namespace ChatGPTApp.Services
 </p>
 </div>
 <div class="side-posts">
-    <h2>New Posts every Tuesday and Thursday!</h2>
+<h1 className="text-3xl font-bold mb-4">New Posts every Tuesday and Thursday!</h1>
     {/* <ul>
    
       <li><a href="#">Post 1</a></li>
