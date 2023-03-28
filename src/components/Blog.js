@@ -41,7 +41,7 @@ const Blog = () => {
   </code>
 </pre>
 <p className="mb-4">
-  This will create a new React project called "chat-gpt-app" in your current directory. Once the project is created, navigate to the project directory using:
+  Step 1: This will create a new React project called "chat-gpt-app" in your current directory. Once the project is created, navigate to the project directory using:
 </p>
 <pre className="bg-gray-100 p-4 rounded-lg my-4">
   <code className="text-sm font-mono">
@@ -49,14 +49,14 @@ const Blog = () => {
   </code>
 </pre>
 <p className="mb-4">
-  Next, you'll need to install the "axios" package, which will be used to make HTTP requests to your .NET back-end API:
+  Step 2: Next, you'll need to install the "axios" package, which will be used to make HTTP requests to your .NET back-end API:
 </p>
 <pre className="bg-gray-100 p-4 rounded-lg my-4">
   <code className="text-sm font-mono">
     npm install axios
   </code>
 </pre>
-<h2>Use the ChatGPT API to send natural language inputs to the model and receive responses</h2>
+<h2>Step 3: Use the ChatGPT API to send natural language inputs to the model and receive responses</h2>
 <pre className="bg-gray-100 p-4 rounded-lg my-4" dangerouslySetInnerHTML={{ __html: `
           using System;
 using System.Net.Http;
@@ -135,7 +135,7 @@ namespace ChatGPTApp.Services
       <h2>Step 4: Use .NET to create a back-end API</h2>
 <p>To deploy the app to Azure, you can follow these steps:
 
-<li>Create an Azure account and log in to the Azure portal.</li>.
+<li>Create an Azure account and log in to the Azure portal.</li>
 <li>Create a new App Service and configure it with the necessary settings, such as the runtime stack, deployment source, and environment variables.</li>
 <li>Deploy the app to the App Service using your preferred deployment method, such as Git, FTP, or Azure CLI.</li>
 </p>
