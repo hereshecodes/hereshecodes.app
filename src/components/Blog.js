@@ -25,7 +25,7 @@ const Blog = () => {
       </p>
       <h2 className="text-xl font-bold my-4">Introduction to ChatGPT</h2>
       <p>
-        ChatGPT is a large language model developed by OpenAI. It is based on
+        <a href="https://www.chat.openai.com">ChatGPT</a>is a large language model developed by OpenAI. It is based on
         the GPT-3 architecture and is designed to generate human-like responses
         to natural language inputs. ChatGPT is a powerful tool for building
         conversational AI apps because it can understand natural language inputs
