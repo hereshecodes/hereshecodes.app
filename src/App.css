@@ -95,4 +95,21 @@ a{
     width: 100%;
   }
 }
+/* Default style for code blocks */
+pre {
+  white-space: pre-wrap;
+  font-size: 14px;
+  padding: 10px;
+  background-color: #f6f8fa;
+  border-radius: 4px;
+}
+
+/* Style for code blocks on smaller screens */
+@media only screen and (max-width: 768px) {
+  pre {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
 
