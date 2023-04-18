@@ -7,7 +7,7 @@ const TRACKING_ID = "G-S48WBVLVHG"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 import About from "./components/About";
-import Blog from "./components/Blog";
+import BlogMenu from "./components/BlogMenu";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Contact from "./components/Contact";
