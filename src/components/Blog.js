@@ -4,7 +4,7 @@ import BlogMenu from "./BlogMenu";
 const Blog = () => {
   return (
     <div className="blog-container mx-auto my-8">
-      <div class="main-post">
+      <div class="main-post" id="post-1">
       <h1 className="text-3xl font-bold mb-4">
         Building a Conversational AI App with .NET, React, and ChatGPT
       </h1>
