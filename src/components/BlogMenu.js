@@ -26,7 +26,7 @@ import React from "react";
         <div className="blog-card-content">
           <h2 className="text-xl font-bold mb-2">Blog Post Title</h2>
           <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          <a href="#" className="btn btn-primary mt-4">Read More</a>
+          <Link to="/blog" className="btn btn-primary mt-4">Read More</Link>
         </div>
       </div>
       {/* Add more blog cards here */}
