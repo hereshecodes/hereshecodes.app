@@ -41,7 +41,7 @@ import BlogMenu from "./BlogMenu";
 const BlogMenu = () => {
   return (
     <div className="blog-container mx-auto my-8">
-      <BlogMenu />
+   
       <div className="grid grid-cols-3 gap-4">
         <div className="blog-card">
           <div className="blog-card-image" style={{backgroundImage: 'url(https://source.unsplash.com/random/400x400)'}}></div>
