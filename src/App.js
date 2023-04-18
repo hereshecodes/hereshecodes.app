@@ -23,7 +23,6 @@ export default function App() {
       </BrowserRouter>
       <Hero/>
       <About/>
-      <BlogMenu/>
       <News/>
       <Projects/>
       <Contact/>
