@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router";
+import { Switch , Route } from "react-router";
 import About from "./components/About";
 import Blog from "./components/Blog";
 import BlogMenu from "./components/BlogMenu";
@@ -16,7 +16,7 @@ export default function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
-          <Route exact path="/">
+          <Route path="/">
             <Hero />
             <About />
             <BlogMenu />
@@ -24,7 +24,7 @@ export default function App() {
             <Projects />
             <Contact />
           </Route>
-          <Route exact path="/blog" component={Blog} />
+          <Route path="/blog" component={Blog} />
         </Switch>
         <Footer />
       </BrowserRouter>
