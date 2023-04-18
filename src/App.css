@@ -114,4 +114,19 @@ pre {
   }
 }
 
+.blog-card {
+  border: 1px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
+.blog-card-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-card-content {
+  padding: 1rem;
+}
