@@ -2,9 +2,9 @@
 import './App.css';
 import React from "react";
 import { BrowserRouter } from 'react-router-dom'
-import ReactGA from 'react-ga';
-const TRACKING_ID = "G-S48WBVLVHG"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+//import ReactGA from 'react-ga';
+//const TRACKING_ID = "G-S48WBVLVHG"; // OUR_TRACKING_ID
+//ReactGA.initialize(TRACKING_ID);
 
 import About from "./components/About";
 import BlogMenu from "./components/BlogMenu";
