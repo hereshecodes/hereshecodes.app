@@ -35,3 +35,4 @@ import React from "react";
 );
 };
 
+export default BlogMenu;
