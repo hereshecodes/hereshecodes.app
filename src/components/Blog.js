@@ -1,4 +1,5 @@
 import React from "react";
+import BlogMenu from "./BlogMenu";
 
 const Blog = () => {
   return (
