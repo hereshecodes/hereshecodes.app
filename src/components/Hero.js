@@ -14,6 +14,10 @@ import {
 const Hero = () => {
   return (
     <section className="bg-primary px-5 text-white py-32">
+      {/* Add the stars as child elements */}
+      {[...Array(50)].map((_, index) => (
+        <div className="star" key={index}></div>
+      ))}
       <div className="container mx-auto grid items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">

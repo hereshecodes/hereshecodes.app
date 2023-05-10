@@ -130,3 +130,37 @@ pre {
 .blog-card-content {
   padding: 1rem;
 }
+.star {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+  );
+  animation: pop-up 3s ease-in-out infinite;
+}
+
+@keyframes pop-up {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
