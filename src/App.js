@@ -7,11 +7,9 @@ import { BrowserRouter } from 'react-router-dom'
 //ReactGA.initialize(TRACKING_ID);
 
 import About from "./components/About";
-import BlogMenu from "./components/BlogMenu";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Contact from "./components/Contact";
-import Projects from "./components/Projects";
 import News from "./components/News";
 import Footer from  "./components/Footer";
 

@@ -54,12 +54,12 @@ const Hero = () => {
             </a>
           </div>
 
-          <a
+          {/* <a
             href="/#projects"
             className="btn bg-accent  border-2 border-[#7477FF] text-black px-6 py-3 hover:bg-transparent"
           >
             See Projects
-          </a>
+          </a> */}
         </div>
 
         {/*<div className="hero-img">
