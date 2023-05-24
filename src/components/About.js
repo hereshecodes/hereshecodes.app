@@ -19,12 +19,7 @@ work with clients to update their storefronts, WordPress sites, custom coded app
 lots more head over to Fiver
 </p>
       
-        <a
-            href="https://www.fiverr.com/daniellehoopes1?up_rollout=true"
-            className="btn bg-accent-2 pb-5 border-2 border-[#FFFFF] text-black px-6 py-3 hover:bg-transparent"
-          >
-           Fiverr
-          </a>
+     
 </div>
         <div className="about-img pt-10">
           <img
