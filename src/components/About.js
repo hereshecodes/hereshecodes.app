@@ -14,10 +14,6 @@ const About = () => {
           </p>
           <p className="pb-5">During the day, I code .NET Applications using C#, SQL Server, and Azure</p>
 
-<p className="pb-5 text-accent">If you are here for my freelance work where I  
-work with clients to update their storefronts, WordPress sites, custom coded apps, and 
-lots more head over to Fiver
-</p>
       
      
 </div>
