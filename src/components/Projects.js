@@ -5,9 +5,7 @@ const Projects = () => {
     <section className="bg-primary text-white px-5 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-info">
-          <p className="pb-5 title-font font-semibold">
-            Projects
-          </p>
+        
        
           {/* Live Templates
           <div>
