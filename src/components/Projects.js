@@ -6,7 +6,7 @@ const Projects = () => {
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-info">
           <p className="pb-5 title-font font-semibold">
-            Showcase Your Live Templates and Projects
+            Projects
           </p>
        
           {/* Live Templates
@@ -55,7 +55,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View Project
+                  Bootstrap Simple Template
                 </a>
               </div>
               {/* Project 2 */}
