@@ -21,6 +21,7 @@ export default function App() {
       </BrowserRouter>
       <Hero/>
       <About/>
+      <Projects/>
       <News/>
       <Contact/>
       <Footer/>
