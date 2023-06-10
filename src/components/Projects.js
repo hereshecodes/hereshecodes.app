@@ -6,13 +6,14 @@ const Projects = () => {
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-info">
           <p className="pb-5 title-font font-semibold">
-Projects          </p>
+            Showcase Your Live Templates and Projects
+          </p>
        
-          {/* Live Templates */}
+          {/* Live Templates
           <div>
             <h2 className="text-lg font-semibold mb-2">Live Templates</h2>
             <div className="grid grid-cols-2 gap-4">
-              {/* Template 1 */}
+              {/* Template 1 
               <div className="bg-white p-4">
                 <h3 className="text-xl font-semibold">Template 1</h3>
                 <p>Description of Template 1</p>
@@ -25,7 +26,7 @@ Projects          </p>
                   View Template
                 </a>
               </div>
-              {/* Template 2 */}
+              {/* Template 2 *
               <div className="bg-white p-4">
                 <h3 className="text-xl font-semibold">Template 2</h3>
                 <p>Description of Template 2</p>
@@ -39,7 +40,7 @@ Projects          </p>
                 </a>
               </div>
             </div>
-          </div>
+  </div> */}
           {/* Projects */}
           <div>
             <h2 className="text-lg font-semibold mb-2">Projects</h2>
