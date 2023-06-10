@@ -1,5 +1,4 @@
 import React from "react";
-import Projectsimg from "../assets/Projects.png";
 
 const Projects = () => {
   return (
@@ -9,9 +8,7 @@ const Projects = () => {
           <p className="pb-5 title-font font-semibold">
             Showcase Your Live Templates and Projects
           </p>
-          <p className="pb-5">
-            In the meantime, visit my GitHub and Stack Overflow or Fiverr to see what I'm working on
-          </p>
+       
           {/* Live Templates */}
           <div>
             <h2 className="text-lg font-semibold mb-2">Live Templates</h2>
@@ -77,13 +74,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="about-img">
-          <img
-            src={Projectsimg}
-            alt="coding illustration"
-            className="lg:w-[80%] md:ml-auto"
-          />
-        </div>
+       
       </div>
     </section>
   );
