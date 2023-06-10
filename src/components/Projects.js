@@ -41,7 +41,7 @@ const Projects = () => {
   </div> */}
           {/* Projects */}
           <div>
-            <h2 className="text-lg font-semibold mb-2">Projects</h2>
+            <h2 className="text-lg font-semibold mb-2">Templates</h2>
             <div className="grid grid-cols-2 gap-4">
               {/* Project 1 */}
               <div className="bg-white p-4">
