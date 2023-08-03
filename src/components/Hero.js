@@ -57,7 +57,7 @@ const Hero = () => {
               target="_blank" className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
-              <AiOutlineGlobal size={40} />{" "}
+              <AiOutlineGithub size={40} />{" "}
             </a>
           </div>
 
