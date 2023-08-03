@@ -8,6 +8,7 @@ import {
   AiOutlineGithub,
   AiOutlineLinkedin,
   AiOutlineBehanceSquare,
+  AIOutlineIdCard,
   AiOutlineArrowRight,
 } from "react-icons/ai";
 
@@ -57,7 +58,7 @@ const Hero = () => {
               target="_blank" className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
-              <AiOutlineBehanceSquare size={40} />{" "}
+              <AiOutlineIdCard size={40} />{" "}
             </a>
           </div>
 
