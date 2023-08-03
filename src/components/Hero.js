@@ -8,7 +8,7 @@ import {
   AiOutlineGithub,
   AiOutlineLinkedin,
   AiOutlineBehanceSquare,
-  AIOutlineIdCard,
+  AiOutlineIdCard,
   AiOutlineArrowRight,
 } from "react-icons/ai";
 
