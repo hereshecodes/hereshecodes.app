@@ -41,11 +41,11 @@ const Projects = () => {
   </div> */}
           {/* Projects */}
           <div>
-            <h2 className="text-lg font-semibold mb-2">Templates</h2>
+            <h2 className="text-lg font-semibold mb-2">Projects & Clients</h2>
             <div className="grid grid-cols-2 gap-4">
               {/* Project 1 */}
               <div className="bg-white p-4">
-                <h3 className="text-xl font-semibold">Project 1</h3>
+                <h3 className="text-xl font-semibold">Bootstrap</h3>
                 <p>Description of Project 1</p>
                 <a
                   href="https://sidebar-bootstrap-template-44p3bhbca-daniellehoopes.vercel.app/index.html"
@@ -53,22 +53,11 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Bootstrap Simple Template
+                  Bootstrap Template
                 </a>
               </div>
               {/* Project 2 */}
-              <div className="bg-white p-4">
-                <h3 className="text-xl font-semibold">Project 2</h3>
-                <p>Description of Project 2</p>
-                <a
-                  href="link-to-project-2"
-                  className="text-blue-500 underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View Project
-                </a>
-              </div>
+          
             </div>
           </div>
         </div>
