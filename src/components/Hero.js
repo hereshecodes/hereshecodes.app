@@ -8,6 +8,7 @@ import {
   AiOutlineGithub,
   AiOutlineLinkedin,
   AiOutlineBehanceSquare,
+  AiOutlineIdCard,
   AiOutlineArrowRight,
 } from "react-icons/ai";
 
@@ -51,6 +52,13 @@ const Hero = () => {
             >
               {" "}
               <AiOutlineArrowRight size={40} />{" "}
+            </a>
+            <a
+              href="https://www.fiverr.com/daniellehoopes1"
+              target="_blank" className="pr-4 inline-block text-accent hover:text-white"
+            >
+              {" "}
+              <AiOutlineArrowRight  size={40} />{" "}
             </a>
           </div>
 
