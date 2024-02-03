@@ -12,7 +12,7 @@ const Projects = () => {
             <h2 className="text-lg font-semibold mb-2">Live Templates</h2>
             <div className="grid grid-cols-2 gap-4">
      
-              <div className="bg-white p-4">
+              <div className="bg-orange  p-4">
                 <h3 className="text-xl font-semibold">SB Lash and Wax - Beauty Services</h3>
                 <p>Aesthetics Website</p>
                 <a
