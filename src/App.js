@@ -3,8 +3,7 @@ import './App.css';
 import React from "react";
 import { BrowserRouter } from 'react-router-dom'
 import ReactGA from 'react-ga';
-const TRACKING_ID = "G-S48WBVLVHG"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+
 
 import About from "./components/About";
 import Navbar from "./components/Navbar";
@@ -12,8 +11,10 @@ import Hero from "./components/Hero";
 import Contact from "./components/Contact";
 import News from "./components/News";
 import Projects from "./components/Projects";
-
 import Footer from  "./components/Footer";
+
+const TRACKING_ID = "G-S48WBVLVHG";
+ReactGA.initialize(TRACKING_ID);
 
 export default function App() {
   return (
