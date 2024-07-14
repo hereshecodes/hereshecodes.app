@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import About from "./components/About";
 import Navbar from "./components/Navbar";
@@ -15,15 +15,17 @@ function App() {
     <Router>
       <main className="text-gray-400 bg-gray-900 body-font">
         <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <Hero />
-            <About />
-            <Projects />
-            <News />
-            <Contact />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Hero />
+              <About />
+              <Projects />
+              <News />
+              <Contact />
+            </>
+          } />
+        </Routes>
         <Footer />
       </main>
     </Router>
