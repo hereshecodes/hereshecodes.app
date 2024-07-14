@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineIdCard, AiOutlineGithub, AiOutlineLinkedin, AiOutlineBehanceSquare, AiOutlineIdCard, AiOutlineArrowRight } from 'react-icons/ai';
+import {AiOutlineGithub, AiOutlineLinkedin, AiOutlineBehanceSquare, AiOutlineIdCard, AiOutlineArrowRight } from 'react-icons/ai';
 
 function Navbar() {
   return (
