@@ -206,3 +206,13 @@ button:hover, .button:hover {
 .ml-3 {
   margin-left: 0.75
 }
+
+.header-icons a {
+  margin-right: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.header-icons a:hover {
+  color: #63b3ed;
+}
