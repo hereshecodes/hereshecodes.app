@@ -8,13 +8,11 @@ function About() {
       </div>
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
-          <p className="text-white">Experienced software engineer and excellent team leader propelling full stack projects and teams to peak results with minimal supervision. Desire to learn superior communication analytical technical and interpersonal skills with relevant and strong academic background.</p>
           <h3 className="text-2xl font-medium text-white mt-8">Skills</h3>
           <ul className="list-none mt-4 text-gray-400">
             <li>C#</li>
-            <li>Razor</li>
-            <li>LINQ</li>
             <li>SQL</li>
+            <li>MongoDB</li>
             <li>JavaScript (React, jQuery)</li>
             <li>HTML</li>
             <li>Tailwind</li>
