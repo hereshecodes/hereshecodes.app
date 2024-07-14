@@ -43,9 +43,9 @@ function About() {
               <h4 className="text-xl text-white" data-aos="fade-up">Software Development Analyst</h4>
               <p className="text-gray-400">Goodyear Tire and Rubber Company, Fort Smith, AR (Jan/2018 – Jan/2020)</p>
               <ul className="list-disc list-inside text-gray-400 mt-2">
+              <li>Transformed classic ASP and VB.NET customer-facing sales and inventory application to .NET </li>
                 <li>Gathering, analyzing, and validating business requirements handling front-end development tasks writing advanced stored SQL procedures and Views Triggers and proposing solutions to improve development process.</li>
                 <li>Augmented network support team’s efficiency through developing and deploying a new network support ticket system.</li>
-                <li>Transformed classic ASP and VB.NET customer-facing sales and inventory application to ASP.NET and created technical documentation for existing systems and training materials for support desk and software development.</li>
               </ul>
             </div>
             <div className="mt-4">
