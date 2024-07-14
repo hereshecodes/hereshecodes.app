@@ -4,7 +4,7 @@ function About() {
   return (
     <section id="resume" className="container mx-auto py-20">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-medium text-white">My Resume</h2>
+        <h2 className="text-3xl font-medium text-white">Resume</h2>
       </div>
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
