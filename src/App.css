@@ -268,3 +268,23 @@ button:hover, .button:hover {
 #resume .text-white {
   color: var(--white);
 }
+/* App.css */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+
+
