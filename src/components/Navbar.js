@@ -1,5 +1,5 @@
 import React from 'react';
-import {AiOutlineGithub, AiOutlineLinkedin, AiOutlineBehanceSquare, AiOutlineMail, AiOutlineArrowRight } from 'react-icons/ai';
+import {AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail, } from 'react-icons/ai';
 
 function Navbar() {
   return (
@@ -9,9 +9,9 @@ function Navbar() {
           <span className="ml-3 text-xl">Danielle Hoopes</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-white" href="#about">About</a>
+          {/* <a className="mr-5 hover:text-white" href="#about">About</a> */}
           {/* <a className="mr-5 hover:text-white" href="#projects">Projects</a> */}
-          <a className="mr-5 hover:text-white" href="#contact">Contact</a>
+          {/* <a className="mr-5 hover:text-white" href="#contact">Contact</a> */}
         </nav>
         <div className="flex items-center text-base justify-center">
           <a className="mr-5 hover:text-white" href="https://github.com/hereshecodes" target="_blank" rel="noopener noreferrer">

@@ -9,7 +9,7 @@ function Hero() {
       >
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="text-center md:text-left md:w-1/2">
-          <p className="text-xl text-gray-200 mt-4">I am a fullstack developer specializing in a variety of web technologies and .NET.</p>
+        <p className="text-xl text-gray-200 mt-4">I am a full-stack developer with expertise in modern web technologies and .NET, dedicated to creating efficient and scalable web solutions.</p>
           {/* <a href="#projects" className="mt-8 px-6 py-2 bg-primary text-white rounded hover:bg-hover-primary inline-block">View My Work</a> */}
         </div>
         <div className="md:w-1/2">
