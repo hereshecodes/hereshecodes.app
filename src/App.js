@@ -20,7 +20,6 @@ function App() {
               <Hero />
               <About/> {/* Replacing About with Resume */}
               <Projects />
-              <News />
               <Contact />
             </>
           } />
