@@ -1,5 +1,5 @@
 import React from 'react';
-import {AiOutlineGithub, AiOutlineLinkedin, AiOutlineBehanceSquare, AiOutlineIdCard, AiOutlineArrowRight } from 'react-icons/ai';
+import {AiOutlineGithub, AiOutlineLinkedin, AiOutlineBehanceSquare, AiOutlineMail, AiOutlineArrowRight } from 'react-icons/ai';
 
 function Navbar() {
   return (
@@ -14,18 +14,14 @@ function Navbar() {
           <a className="mr-5 hover:text-white" href="#contact">Contact</a>
         </nav>
         <div className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-     
-      
-   
           <a className="mr-5 hover:text-white" href="https://github.com/hereshecodes" target="_blank" rel="noopener noreferrer">
             <AiOutlineGithub size={24} />
           </a>
           <a className="mr-5 hover:text-white" href="https://linkedin.com/in/daniellehoopes" target="_blank" rel="noopener noreferrer">
             <AiOutlineLinkedin size={24} />
           </a>
-      
           <a className="mr-5 hover:text-white" href="mailto:hereshecodes1@gmail.com" target="_blank" rel="noopener noreferrer">
-            <AiOutlineIdCard size={24} />
+          <AiOutlineMail size={24} />
           </a>
         </div>
       </div>
