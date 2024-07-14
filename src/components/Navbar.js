@@ -1,47 +1,21 @@
-import React, {useState, useEffect} from 'react'
-import './Navbar.css'
+import React from 'react';
 
-const Navbar = () => {
+function Navbar() {
   return (
+    <header className="bg-gray-900 fixed w-full z-10 top-0 shadow-md">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0" href="/">
+          <span className="ml-3 text-xl">My Portfolio</span>
+        </a>
+        <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a className="mr-5 hover:text-white" href="#about">About</a>
+          <a className="mr-5 hover:text-white" href="#projects">Projects</a>
+          <a className="mr-5 hover:text-white" href="#news">News</a>
+          <a className="mr-5 hover:text-white" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+  );
+}
 
-  <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
-  <a href="/" className="logo text-2xl font-bold text-accent">
-    Danielle
-  </a>
-  </header>
-
-)
-  /*const toggleNav = () => {
-    setToggleMenu(!toggleMenu)
-  }
-
-  useEffect(() => {
-
-    const changeWidth = () => {
-      setScreenWidth(window.innerWidth);
-    }
-
-    window.addEventListener('resize', changeWidth)
-
-    return () => {
-        window.removeEventListener('resize', changeWidth)
-    }
-
-  }, [])
-
-  return (
-    <nav>
-      {(toggleMenu || screenWidth > 500) && (
-      <ul className="list">
-      <li className="items">Home</li>
-      <li className="items">Services</li>
-      <li className="items">Contact</li>
-    </ul>
-      )}
-
-      <button onClick={toggleNav} className="btn-nav">UP</button>
-    </nav>
-  )
-}*/
-};
 export default Navbar;

@@ -1,20 +1,15 @@
-import React from "react";
 
-const Projects = () => {
+
+import React from 'react';
+
+function Projects() {
   return (
-    <section className="bg-primary text-white px-5 py-32" id="projects">
-      <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
-        <div className="about-info">
-        
-       
-        
-          <div>
-            <h2 className="text-lg font-semibold mb-2">Live Templates</h2>
-            <div className="grid grid-cols-2 gap-4">
-     
-              <div className="bg-orange  p-4">
-                <h3 className="text-xl font-semibold">SB Lash and Wax - Beauty Services</h3>
-                <p>Aesthetics Website</p>
+    <section id="projects" className="container mx-auto py-20">
+      <div className="text-center mb-12">
+        <h2 className="text-3xl font-medium text-white">My Projects</h2>
+        <p className="mt-4 text-gray-400">A showcase of some of the projects I've worked on.</p>
+      </div>
+      <p>Aesthetics Website</p>
                 <a
                   href="https://sb-lash-and-wax-fort-smith-git-master-daniellehoopes.vercel.app/services.html"
                   className="text-blue-500 underline"
@@ -23,16 +18,9 @@ const Projects = () => {
                 >
                   View Template
                 </a>
-              </div>
-           
-          {/* Projects */}
-         
-        </div>
-       </div>
-      </div>
-      </div>
     </section>
   );
-};
+}
 
 export default Projects;
+
