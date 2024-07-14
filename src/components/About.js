@@ -43,12 +43,9 @@ function About() {
             <h4 className="text-xl text-white">Software Development Analyst</h4>
             <p className="text-gray-400">Goodyear Tire and Rubber Company, Remote – Fort Smith, AR (01/2018 – 01/2020)</p>
             <ul className="list-disc list-inside text-gray-400 mt-2">
+            <li>Modernized classic ASP and VB.NET customer-facing sales and inventory application to ASP.NET and created technical documentation for existing systems and training materials for support desk and software development.</li>
               <li>Gathering, analyzing, and validating business requirements handling front-end development tasks writing advanced stored SQL procedures and Views Triggers and proposing solutions to improve development process.</li>
-              <li>Augmented network support team’s efficiency through developing and deploying a new network support ticket system.</li>
-              <li>Transformed classic ASP and VB.NET customer-facing sales and inventory application to ASP.NET and created technical documentation for existing systems and training materials for support desk and software development.</li>
-              <li>Maintained the reputation of a “go-to” person for all software and applications requests of users from across the nation.</li>
-              <li>Streamlined system support process and enhanced productivity by documenting procedures and creating a knowledgebase to ensure effective company-wide information sharing.</li>
-              <li>Provided overarching technical support to users and promptly resolved tickets by using system analysis and documented procedures to communicate clearly with users while logging activity in ticket system.</li>
+              <li>Modernized classic ASP and VB.NET customer-facing sales and inventory application to ASP.NET and created technical documentation for existing systems and training materials for support desk and software development.</li>
             </ul>
           </div>
           <div className="mt-4">
@@ -57,7 +54,6 @@ function About() {
             <ul className="list-disc list-inside text-gray-400 mt-2">
               <li>Gathering, analyzing, and validating business requirements handling front-end development tasks writing advanced stored SQL procedures and Views Triggers and proposing solutions to improve development process.</li>
               <li>Augmented network support team’s efficiency through developing and deploying a new network support ticket system.</li>
-              <li>Transformed classic ASP and VB.NET customer-facing sales and inventory application to ASP.NET and created technical documentation for existing systems and training materials for support desk and software development.</li>
               <li>Maintained the reputation of a “go-to” person for all software and applications requests of users from across the nation.</li>
               <li>Streamlined system support process and enhanced productivity by documenting procedures and creating a knowledgebase to ensure effective company-wide information sharing.</li>
               <li>Provided overarching technical support to users and promptly resolved tickets by using system analysis and documented procedures to communicate clearly with users while logging activity in ticket system.</li>
