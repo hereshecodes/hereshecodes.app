@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section 
       className="hero-section bg-cover bg-center h-screen flex items-center justify-center" 
-      style={{ backgroundImage: `url(${backgroundImage})` }}>
+      >
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="text-center md:text-left md:w-1/2">
           <h1 className="text-5xl font-bold text-white">Welcome to My Portfolio</h1>
