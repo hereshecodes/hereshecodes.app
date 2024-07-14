@@ -216,3 +216,35 @@ button:hover, .button:hover {
 .hover\:text-primary:hover {
   color: var(--primary);
 }
+/* Add any necessary styles here */
+#resume {
+  background-color: var(--background-gray);
+  color: var(--text-gray);
+}
+
+#resume h2 {
+  color: var(--white);
+}
+
+#resume h3, #resume h4 {
+  color: var(--white);
+}
+
+#resume ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#resume ul.list-disc {
+  list-style-type: disc;
+}
+
+#resume .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+#resume .text-white {
+  color: var(--white);
+}
