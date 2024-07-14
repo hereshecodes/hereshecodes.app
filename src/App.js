@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About"; // New import
-import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
@@ -18,9 +17,8 @@ function App() {
           <Route path="/" element={
             <>
               <Hero />
-              <About/> {/* Replacing About with Resume */}
+              <About/> 
               <Projects />
-              <Contact />
             </>
           } />
         </Routes>
