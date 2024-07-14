@@ -46,9 +46,6 @@ function About() {
                 <li>Gathering, analyzing, and validating business requirements handling front-end development tasks writing advanced stored SQL procedures and Views Triggers and proposing solutions to improve development process.</li>
                 <li>Augmented network support team’s efficiency through developing and deploying a new network support ticket system.</li>
                 <li>Transformed classic ASP and VB.NET customer-facing sales and inventory application to ASP.NET and created technical documentation for existing systems and training materials for support desk and software development.</li>
-                <li>Maintained the reputation of a “go-to” person for all software and applications requests of users from across the nation.</li>
-                <li>Streamlined system support process and enhanced productivity by documenting procedures and creating a knowledgebase to ensure effective company-wide information sharing.</li>
-                <li>Provided overarching technical support to users and promptly resolved tickets by using system analysis and documented procedures to communicate clearly with users while logging activity in ticket system.</li>
               </ul>
             </div>
             <div className="mt-4">
