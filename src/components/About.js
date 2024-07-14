@@ -9,7 +9,7 @@ function About() {
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2">
             <p className="text-white">Experienced software engineer and excellent team leader propelling full stack projects and teams to peak results with minimal supervision. Desire to learn superior communication, analytical, technical, and interpersonal skills with relevant and strong academic background.</p>
-            <h3 className="text-2xl font-medium text-white mt-8">Skills</h3>
+            <h3 className="text-2xl font-medium text-white mt-8" data-aos="fade-up">Skills</h3>
             <ul className="list-none mt-4 text-gray-400">
               <li><strong>Programming Languages & Web Technologies:</strong> C#, Java, Python, JavaScript, SQL, HTML, CSS, React, SASS, Webpack, ASP.NET MVC</li>
               <li><strong>Frameworks & Tools:</strong> .NET, Azure, AWS, Git, Docker, DevOps</li>
@@ -26,7 +26,7 @@ function About() {
           <div className="md:w-1/2 md:pl-12 mt-8 md:mt-0">
             <h3 className="text-2xl font-medium text-white">Professional Experience</h3>
             <div className="mt-4">
-              <h4 className="text-xl text-white">Applications Developer</h4>
+              <h4 className="text-xl text-white" data-aos="fade-up">Applications Developer</h4>
               <p className="text-gray-400">Mascot Media, Remote - Fayetteville, AR (Jan/2020 to Present)</p>
               <ul className="list-disc list-inside text-gray-400 mt-2">
                 <li>Design, develop, and maintain web-based applications and systems using various programming languages and tools.</li>
@@ -40,7 +40,7 @@ function About() {
               </ul>
             </div>
             <div className="mt-4">
-              <h4 className="text-xl text-white">Software Development Analyst</h4>
+              <h4 className="text-xl text-white" data-aos="fade-up">Software Development Analyst</h4>
               <p className="text-gray-400">Goodyear Tire and Rubber Company, Fort Smith, AR (Jan/2018 – Jan/2020)</p>
               <ul className="list-disc list-inside text-gray-400 mt-2">
                 <li>Gathering, analyzing, and validating business requirements handling front-end development tasks writing advanced stored SQL procedures and Views Triggers and proposing solutions to improve development process.</li>
@@ -52,7 +52,7 @@ function About() {
               </ul>
             </div>
             <div className="mt-4">
-              <h4 className="text-xl text-white">Systems Support Analyst</h4>
+              <h4 className="text-xl text-white" data-aos="fade-up">Systems Support Analyst</h4>
               <p className="text-gray-400">Goodyear Tire and Rubber Company, Fort Smith, AR (Nov/2015 – Jan/2018)</p>
               <ul className="list-disc list-inside text-gray-400 mt-2">
                 <li>Maintained the reputation of a “go-to” person for all software and applications requests of users from across the nation.</li>
