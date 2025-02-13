@@ -1,6 +1,6 @@
 import React from 'react';
 import backgroundImage from '../assets/BLOG.png'; // Update the path accordingly
-import heroImage from '../assets/pfp.png'; // Update the path accordingly
+import heroImage from '../assets/DanielleHoopes.png'; // Update the path accordingly
 
 function Hero() {
   return (
