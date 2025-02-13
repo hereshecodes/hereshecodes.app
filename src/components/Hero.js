@@ -1,19 +1,27 @@
 import React from 'react';
-import backgroundImage from '../assets/BLOG.png'; // Update the path accordingly
 import heroImage from '../assets/DanielleHoopes.png'; // Update the path accordingly
 
 function Hero() {
   return (
     <section 
-      className="hero-section bg-cover bg-center h-screen flex items-center justify-center" 
-      >
+      className="hero-section bg-cover bg-center h-screen flex items-center justify-center"
+    >
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="text-center md:text-left md:w-1/2">
-        <p className="text-xl text-gray-200 mt-4">I am a full-stack developer with expertise in modern web technologies and .NET, dedicated to creating efficient and scalable web solutions.</p>
-          {/* <a href="#projects" className="mt-8 px-6 py-2 bg-primary text-white rounded hover:bg-hover-primary inline-block">View My Work</a> */}
+          <h1 className="text-4xl font-bold text-white">Danielle Hoopes</h1>
+          <p className="text-xl text-gray-200 mt-4">
+            I am a full-stack developer with expertise in modern web technologies and .NET, dedicated to creating efficient and scalable web solutions.
+          </p>
         </div>
-        <div className="md:w-1/2">
-          <img src={heroImage} alt="Hero" className="w-full h-auto object-cover"/>
+        <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-md"></div>
+            <img 
+              src={heroImage} 
+              alt="Hero" 
+              className="relative z-10 w-40 h-40 rounded-full border-4 border-white shadow-lg"
+            />
+          </div>
         </div>
       </div>
     </section>
