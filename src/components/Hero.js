@@ -10,19 +10,20 @@ function Hero() {
         <div className="text-center md:text-left md:w-1/2">
           <h1 className="text-4xl font-bold text-white">Danielle Hoopes</h1>
           <p className="text-xl text-gray-200 mt-4">
-            I am a full-stack developer with expertise in modern web technologies and .NET, dedicated to creating efficient and scalable web solutions.
+         full-stack developer with expertise in modern web technologies and .NET, dedicated to creating efficient and scalable web solutions.
           </p>
         </div>
         <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
-          <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-md"></div>
-            <img 
-              src={heroImage} 
-              alt="Hero" 
-              className="relative z-10 w-40 h-40 rounded-full border-4 border-white shadow-lg"
-            />
-          </div>
-        </div>
+  <div className="relative">
+    <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-lg w-52 h-52"></div>
+    <img 
+      src={heroImage} 
+      alt="Hero" 
+      className="relative z-10 w-48 h-48 rounded-full border-4 border-white shadow-lg object-cover"
+    />
+  </div>
+</div>
+
       </div>
     </section>
   );
