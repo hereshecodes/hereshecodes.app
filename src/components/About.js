@@ -8,7 +8,7 @@ function About() {
         </div>
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2">
-            <p className="text-white">Experienced software engineer and excellent team leader propelling full stack projects and teams to peak results with minimal supervision. Desire to learn superior communication, analytical, technical, and interpersonal skills with relevant and strong academic background.</p>
+            <p className="text-white">Experienced software engineer and excellent team leader propelling full stack projects and teams to peak results with minimal supervision. Desire to learn, superior communication, analytical, technical, and interpersonal skills with relevant and strong academic background.</p>
             <h3 className="text-2xl font-medium text-white mt-8" data-aos="fade-up">Skills</h3>
             <ul className="list-none mt-4 text-gray-400">
               <li><strong>Programming Languages & Web Technologies:</strong> C#, Java, Python, JavaScript, SQL, HTML, CSS, React, SASS, Webpack, ASP.NET MVC</li>
