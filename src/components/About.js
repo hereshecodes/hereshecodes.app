@@ -26,19 +26,30 @@ function About() {
           <div className="md:w-1/2 md:pl-12 mt-8 md:mt-0">
             <h3 className="text-2xl font-medium text-white">Professional Experience</h3>
             <div className="mt-4">
-              <h4 className="text-xl text-white" data-aos="fade-up">Applications Developer</h4>
-              <p className="text-gray-400">Mascot Media, Remote - Fayetteville, AR (Jan/2020 to Present)</p>
-              <ul className="list-disc list-inside text-gray-400 mt-2">
-                <li>Design, develop, and maintain web-based applications and systems using various programming languages and tools.</li>
-                <li>Translating complex business requirements into architectural designs.</li>
-                <li>Working directly with a variety of clients and stakeholders to solve problems and support both external and internal homegrown applications.</li>
-                <li>Helping scale client-facing digital platforms to increase client onboarding.</li>
-                <li>Developing proofs-of-concept providing estimates on range of alternatives to stakeholders</li>
-                <li>Improving functionality and reliability of existing applications by developing enhancements, monitoring app performance, and implementing application development best practices.</li>
-                <li>Management of various sizes of projects from inception to deployment working with product managers, clients, and stakeholders.</li>
-                <li>Writing unit testing for CI/CD coupled with manual testing to decrease time to deployment.</li>
-              </ul>
-            </div>
+  <h4 className="text-xl text-white" data-aos="fade-up">Senior Applications Developer</h4>
+  <p className="text-gray-400">Mascot Media, Remote - Fayetteville, AR (Feb/2025 to Present)</p>
+  <ul className="list-disc list-inside text-gray-400 mt-2">
+    <li>Leading and mentoring a team of developers to deliver high-quality software solutions.</li>
+    <li>Overseeing full-cycle development projects, ensuring alignment with business goals and timelines.</li>
+    <li>Improving scalability and performance of critical client-facing platforms.</li>
+    <li>Collaborating with cross-functional teams to implement innovative solutions.</li>
+  </ul>
+</div>
+<div className="mt-4">
+  <h4 className="text-xl text-white" data-aos="fade-up">Applications Developer</h4>
+  <p className="text-gray-400">Mascot Media, Remote - Fayetteville, AR (Jan/2020 to Feb/2025)</p>
+  <ul className="list-disc list-inside text-gray-400 mt-2">
+    <li>Designed, developed, and maintained web-based applications and systems using various programming languages and tools.</li>
+    <li>Translated complex business requirements into architectural designs.</li>
+    <li>Worked directly with a variety of clients and stakeholders to solve problems and support both external and internal homegrown applications.</li>
+    <li>Helped scale client-facing digital platforms to increase client onboarding.</li>
+    <li>Developed proofs-of-concept providing estimates on range of alternatives to stakeholders.</li>
+    <li>Improved functionality and reliability of existing applications by developing enhancements, monitoring app performance, and implementing application development best practices.</li>
+    <li>Managed projects from inception to deployment, working with product managers, clients, and stakeholders.</li>
+    <li>Wrote unit tests for CI/CD pipelines, coupled with manual testing to decrease time to deployment.</li>
+  </ul>
+</div>
+
             <div className="mt-4">
               <h4 className="text-xl text-white" data-aos="fade-up">Software Development Analyst</h4>
               <p className="text-gray-400">Goodyear Tire and Rubber Company, Fort Smith, AR (Jan/2018 – Jan/2020)</p>
